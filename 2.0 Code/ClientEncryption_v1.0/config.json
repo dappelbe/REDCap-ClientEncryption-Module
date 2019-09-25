@@ -1,0 +1,17 @@
+{
+  "name" : "REDCap Client Encryption Module",
+  "namespace" : "ClientEncryption\\ExternalModule",
+  "description" : "A module to allow for encrypted data to be stored in the REDCap database, but to be displayed as decrypted text if the key is found in the session. Do NOT use on fields that are used for sending E-Mails",
+  "authors" : [
+    { "name" : "Duncan Appelbe", "email" : "duncan.appelbe@ndorms.ox.ac.uk", "institution" : "NDORMS, The University of Oxford"}
+  ],
+  "permissions": [
+    "hook_every_page_top"
+  ],
+  "compatibility": {
+    "php-version-min": "5.5.0",
+    "php-version-max": "",
+    "redcap-version-min": "8.8.0",
+    "redcap-version-max": ""
+  }
+}

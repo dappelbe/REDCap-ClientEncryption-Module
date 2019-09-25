@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="269e8ebe-05be-4579-9838-1eb07aa9a9f3" name="Local-RC" url="http://localhost/RC/">
+        <fileTransfer port="0" mountedRoot="C:\Users\Duncan\Documents\Duncan\Projects - PHP\REDCap\redcap8.8.2\redcap\modules\ClientEncryption_v1.0.0" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
